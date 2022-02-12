@@ -1,0 +1,26 @@
+
+
+# print("Enter your first var")
+# var1 = int(input())
+# print("Enter your second var")
+# var2 = int(input())
+
+# if(var1 > var2): 
+#     print("var1 is greater")
+# elif(var1 < var2):
+#     print("var2 is greater")
+# else:
+#     print("equal")
+    
+    
+    
+
+l1 = [1,2,3,4,5,6]
+if 0 not in l1 :
+    print("Yes")    
+else: print("No")
+    
+    
+# print("What is your age")
+print(9 * "H\n");
+

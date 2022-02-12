@@ -1,0 +1,14 @@
+print("Enter number one")
+num = int (input())
+print("Enter number two")
+num2 = int (input())
+print("add:"  , num + num2)
+print("sub:"  , num - num2)
+print("mul:"  , num * num2)
+print("div:"  , num / num2)
+
+
+
+
+
+
