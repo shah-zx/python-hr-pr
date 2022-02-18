@@ -1,0 +1,4 @@
+s = ([])
+print(typeof(s))
+
+
