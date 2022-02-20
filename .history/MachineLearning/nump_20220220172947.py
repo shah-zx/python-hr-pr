@@ -15,18 +15,12 @@ print(my_str.isascii())
 
 
 lis = [1,2,3,4]
-arr = np.array(lis)
+array = np.array(lis)
 print(type(array))
 
 # This is the conversion of list to array
 
-aa = array([1,2,3,4,5])
-
-
-print(arr.shape)
-
-
-
+array([1,2,3,4,5])
 
 
 
