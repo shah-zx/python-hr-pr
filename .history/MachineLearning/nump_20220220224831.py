@@ -91,15 +91,7 @@ print(arr1 % 2) # This will modulo the elements by 2
 
 print(arr[arr < 2])
 
-print(np.ones(4,dtype = int)) # Making array of ones with int type 
-
-print(np.ones((2,5) , dtype = float)) # Making array of ones with float type
-
-print(np.random.rand(3,3))  # Printing any random integers 
-
-
-
-
+np.ones(4,dtype = int) #
 
 
 

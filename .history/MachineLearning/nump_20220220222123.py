@@ -24,12 +24,11 @@ aa = array([1, 2, 3, 4, 5])
 
 # arr.reshape()
 
-# li1 = [1, 2, 3, 4, 5]
-# li2 = [6, 7, 8, 9, 1]
-# li3 = [3, 4, 5, 6, 1]
+li1 = [1, 2, 3, 4, 5]
+li2 = [6, 7, 8, 9, 1]
+li3 = [3, 4, 5, 6, 1]
 
-# arr = np.array([li1, li2, li3])  # Making a 2d array
-
+arr = np.array([li1, li2, li3])  # Making a 2d array
 # print(arr.shape)
 
 # arr.reshape(5,3)
@@ -70,36 +69,6 @@ aa = array([1, 2, 3, 4, 5])
 # print(arr)
 
 print(np.linspace(1,10,50))
-
-arr = np.array([1,2,3,4,5,6,7,8,9])
-
-arr[3:]=100  # Changing the elements of the array
-
-# print(arr)
-
-arr1 = arr
-
-arr1[3:] = 100 # printing the renewed array
-
-# print(arr1)
-
-print(arr1 * 2)  # This will multiply all the elements of the array by 2 
-
-print(arr1 / 2) # This will divide the elements by 2 
-
-print(arr1 % 2) # This will modulo the elements by 2 
-
-print(arr[arr < 2])
-
-print(np.ones(4,dtype = int)) # Making array of ones with int type 
-
-print(np.ones((2,5) , dtype = float)) # Making array of ones with float type
-
-print(np.random.rand(3,3))  # Printing any random integers 
-
-
-
-
 
 
 
