@@ -65,6 +65,3 @@ print(arr[0:2 ,0:2])  # Accessing the elements of both the rows and cols
 
 
 
-
-
-

@@ -46,20 +46,7 @@ print(arr)
 
 # print(a[2])
 
-print(arr[:,:2])  # Accessing the elements of the columns 
-
-print(arr[0:2]) # Accessing the elements of the row 
-
-print(arr[0:2 ,0:2])  # Accessing the elements of both the rows and cols 
-
-
-
-
-
-
-
-
-
+print(arr[:,:])
 
 
 

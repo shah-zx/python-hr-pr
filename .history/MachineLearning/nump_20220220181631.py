@@ -34,32 +34,8 @@ arr = np.array([li1, li2, li3])  # Making a 2d array
 # arr.reshape(5,3)
 # print(arr.shape)
 
-# print(arr.reshape(5,3))
-
-print(arr)
-
+print(arr.reshape(5,3))
 # Changing the shape of the array 
-
-# Indexing :
-
-# a = ([1,2,3,4,5])
-
-# print(a[2])
-
-print(arr[:,:2])  # Accessing the elements of the columns 
-
-print(arr[0:2]) # Accessing the elements of the row 
-
-print(arr[0:2 ,0:2])  # Accessing the elements of both the rows and cols 
-
-
-
-
-
-
-
-
-
 
 
 
