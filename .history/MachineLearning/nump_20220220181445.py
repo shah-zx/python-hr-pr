@@ -33,15 +33,8 @@ li3 = [3, 4, 5, 6, 1]
 arr = np.array([li1, li2, li3])  # Making a 2d array
 # print(arr.shape)
 
-# arr.reshape(5,3)
-# print(arr.shape)
-
-print(arr.reshape(5,3))
-# Changing the shape of the array 
-
-
-
-
+arr.reshape(5,3)
+print(arr)
 
 
 

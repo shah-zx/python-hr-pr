@@ -14,7 +14,7 @@ print(my_str.isascii())
 
 
 lis = [1, 2, 3, 4]
-# arr = np.array(lis)
+arr = np.array(lis)
 print(type(array))
 
 # This is the conversion of list to array
@@ -22,27 +22,13 @@ print(type(array))
 aa = array([1, 2, 3, 4, 5])
 
 
-# print(arr.shape)  # One d array
+print(arr.shape)  # One d array
 
 # arr.reshape()
 
 li1 = [1, 2, 3, 4, 5]
 li2 = [6, 7, 8, 9, 1]
-li3 = [3, 4, 5, 6, 1]
+li3 = [3, 4, 5, 6, 1, ]
 
-arr = np.array([li1, li2, li3])  # Making a 2d array
-# print(arr.shape)
-
-# arr.reshape(5,3)
-# print(arr.shape)
-
-print(arr.reshape(5,3))
-# Changing the shape of the array 
-
-
-
-
-
-
-
+np.array(li1, li2, li3)
 

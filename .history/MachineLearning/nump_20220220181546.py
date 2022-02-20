@@ -44,5 +44,3 @@ print(arr.reshape(5,3))
 
 
 
-
-
