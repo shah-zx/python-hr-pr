@@ -64,15 +64,11 @@ arr = np.array([li1, li2, li3])  # Making a 2d array
 
 # print(w[1:, 1:4])
 
-# arr = np.arange(0, 10, step=2)
+arr = np.arange(0, 10, step=2)
 
-# print(arr)
+print(arr)
 
 print(np.linspace(1,10,50))
-
-
-
-
 
 
 

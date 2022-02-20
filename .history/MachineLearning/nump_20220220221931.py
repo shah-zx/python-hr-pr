@@ -75,5 +75,3 @@ print(np.linspace(1,10,50))
 
 
 
-
-

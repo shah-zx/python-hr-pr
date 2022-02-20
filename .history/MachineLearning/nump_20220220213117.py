@@ -54,26 +54,18 @@ arr = np.array([li1, li2, li3])  # Making a 2d array
 
 # print(arr[1:,3:])
 
-# li4 = [1, 2, 3, 4, 5]
-# li5 = [2, 3, 4, 5, 6]
-# li6 = [9, 7, 6, 8, 9]
+li4 = [1, 2, 3, 4, 5]
+li5 = [2, 3, 4, 5, 6]
+li6 = [9, 7, 6, 8, 9]
 
-# w = np.array([li4, li5, li6])
+w = np.array([li4, li5, li6])
 
 # print(w)
 
-# print(w[1:, 1:4])
+print(w[1:, 1:4])
 
-# arr = np.arange(0, 10, step=2)
+arr = np.arange(0, 10, step=2)
 
-# print(arr)
-
-print(np.linspace(1,10,50))
-
-
-
-
-
-
+print(arr)
 
 

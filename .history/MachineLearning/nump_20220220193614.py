@@ -36,9 +36,9 @@ arr = np.array([li1, li2, li3])  # Making a 2d array
 
 # print(arr.reshape(5,3))
 
-# print(arr)
+print(arr)
 
-# Changing the shape of the array
+# Changing the shape of the array 
 
 # Indexing :
 
@@ -46,29 +46,24 @@ arr = np.array([li1, li2, li3])  # Making a 2d array
 
 # print(a[2])
 
-# print(arr[:,:2])  # Accessing the elements of the columns
+print(arr[:,:2])  # Accessing the elements of the columns 
 
-# print(arr[0:2]) # Accessing the elements of the row
+print(arr[0:2]) # Accessing the elements of the row 
 
-# print(arr[0:2 ,0:2])  # Accessing the elements of both the rows and cols
+print(arr[0:2 ,0:2])  # Accessing the elements of both the rows and cols 
 
-# print(arr[1:,3:])
+print(arr[1:,3:]) 
 
-# li4 = [1, 2, 3, 4, 5]
-# li5 = [2, 3, 4, 5, 6]
-# li6 = [9, 7, 6, 8, 9]
+li4 = np.array([1,2,3,4,5])
+li5 = np.array([2,3,4,5,6])
+li6 = np.array([9,7,6,8,9])
 
-# w = np.array([li4, li5, li6])
 
-# print(w)
 
-# print(w[1:, 1:4])
 
-# arr = np.arange(0, 10, step=2)
 
-# print(arr)
 
-print(np.linspace(1,10,50))
+
 
 
 
