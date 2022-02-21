@@ -2,9 +2,9 @@ import pyttsx3
 import datetime
 import speech_recognition as sr
 import os
-
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
+
 # These are the voices present in my pc
 
 print(voices)
@@ -46,7 +46,7 @@ def take():
     except Exception as e:
         print(e)
         print("Hmm.. nah.. say that again..")
-        return 'None'
+        return None
     return query
         
 
