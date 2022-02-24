@@ -9,7 +9,7 @@ Df = pd.DataFrame(np.arange(0, 20).reshape(5, 4), index=[
 
 
 sf = pd.DataFrame(np.arange(0, 40).reshape(4, 10),
-                  index=['Row1', 'Row2', 'Row3', 'Row4'], columns=['Column1', 'Column2', 'Column3', 'Column4', 'Column5', 'Column6', 'Column7', 'Column8', 'Column9', 'Column10'])
+                  index=['Row1', 'Row2', 'Row3', 'Row4'] , columns = ['Column1', 'Column2', 'Column3' , 'Column4'  , 'Column5'  , 'Column6' ,'Column7' ,'Column8' , 'Column9' ,'Column10'])
 # print(sf)
 
 # We can also change this data into an excel sheet :
@@ -20,17 +20,26 @@ sf.to_csv('forty.csv')
 
 # print(Df.iloc[0:2,0:2])
 
-# this will give us the rows and columns
+# this will give us the rows and columns 
 
 # print(Df.iloc[0:3])
 
 # print(type(Df.iloc[0:2,0:2]))
 
-# print(type(Df.iloc[0:2,0]))  # This will give me the series type bcoz we have rows only and not the columns
+print(type(Df.iloc[0:2,0]))
 
-Array = Df.iloc[1:, 3].values
 
-print(Df)
 
-print(Array)
+
+
+
+
+
+
+
+
+
+
+
+
 

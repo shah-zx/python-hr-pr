@@ -28,9 +28,8 @@ sf.to_csv('forty.csv')
 
 # print(type(Df.iloc[0:2,0]))  # This will give me the series type bcoz we have rows only and not the columns
 
-Array = Df.iloc[1:, 3].values
+Array = Df.iloc[1, 1:].values
 
 print(Df)
 
 print(Array)
-
