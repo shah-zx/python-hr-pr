@@ -18,12 +18,7 @@ sf.to_csv('forty.csv')
 
 # print(Df.loc['Row3'])
 
-# print(Df.iloc[0:2,0:2])
-
-# this will give us the rows and columns 
-
-print(Df.iloc[0:3])
-
+print(Df.iloc['0:2,0:2'])
 
 
 
